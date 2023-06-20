@@ -1,0 +1,273 @@
+<!--
+Name: Koh Zhen Ye
+Class: DCITP 1A/01
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Our Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!--My Javascript-->
+  <script src="js/main.js" defer></script>
+  <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+
+  <!-- My CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="load()">
+
+  <!--Loader Function-->
+  <div id="loader"></div>
+  <div id="bodyDiv" class="animate-bottom">
+  
+  <!--Scroll to top-->
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #F2F9FF;">
+    <a class="navbar-brand" href="index.html"><img src="img/pxTransparent.png" alt ='px' width="65" height="65"></a> <!--Logo-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-start" id="navbarNavDropdown" >
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link hvr-underline-from-left" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item " href="services.html">Corporate Web Design</a>
+            <a class="dropdown-item" href="services.html">eCommerce</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="solutions.html">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link hvr-underline-from-left" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+  <!-- Intro Img-->
+  <section class='intro-img'>
+      <h2>Our Services</h2>
+  </section>
+  <!--End Intro Img-->
+
+  <!--Web design-->
+  <section class='intro-section'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/webDesignCard.jpg" alt="web design" class="img-fluid img-curve">
+        </div>
+        <div class="offset-1 col-md-5">
+          <div class="h3-box">
+            <h3 class="h3-divider">Corporate Web Design</h3>
+          </div>
+          <p>
+            Our experienced designers will craft beautiful user experiences, with consistent design patterns and best practices. 
+            We go the extra mile to ensure that your website looks professional, so that your brand stands out against the rest. 
+            Responsive and elegant web design that appeals not only on desktop, but on tablet and mobile devices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--eCommerce-->
+  <section class='intro-section'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/ecommServices.jpg" alt="ecommerce" class="img-fluid img-curve">
+        </div>
+        <div class="offset-1 col-md-5">
+          <div class="h3-box">
+            <h3 class="h3-divider">eCommerce</h3>
+          </div>
+          <p>
+            With our customisable eCommerce web design solutions, you will be able to manage your store and handle transactions seamlessly. Our reliable web hosting partners ensures 24/7 uptime and efficient speed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Cost Estimator-->
+  <section class='intro-section'>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="h3-box">
+            <h3 class="h3-divider">Cost Estimator</h3>
+          </div>
+          <p>
+            With your budget in mind, let us estimate the monthly costs for maintenence & hosting renewals.
+          </p>
+        </div>
+        <div class="col-md-6"> <!--Range slider-->
+          <div class="pricing"> <!--start pricer-->
+            <div class="pricing-slider"> <!--Javascript -->
+              <label class="form-slider">
+                <span>What Is Your Budget?</span>
+                <input type="range" value="0"/> <!--Javascript -->
+              </label>
+              <div class="pricing-slider-value"></div> <!--Javascript -->
+            </div>
+            <div class="pricing-items">
+              <div class="pricing-item">
+                <div class="pricing-item-inner">
+                  <div class="pricing-item-content">
+                    <div class="pricing-item-header">
+                      <div class="pricing-item-title">Maintenence Costs</div>
+                      <div class="pricing-item-price"> <!--Javascript start-->
+                        <span class="pricing-item-price-currency"></span>
+                        <span class="pricing-item-price-amount"></span>
+                        <span class="pricing-item-price-after"></span>
+                      </div>
+                    </div>
+                    <div class="pricing-item-features">
+                      <ul class="pricing-item-features-list">
+                        <li>1 Year Warranty & Support</li>
+                        <li>Training Sessions</li>
+                        <li>Domain & Hosting</li>
+                        <li>SSL Security</li>
+                        <li id="list-pages"></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Testimonial-->
+  <section class='t-section'>
+    <h4>WHAT OUR CLIENTS ARE SAYING</h4>
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner2">
+          <div class="carousel-item active">
+            <div class="carousel-caption2">
+              <p>“We have received numerous positive comments and feedback on the website that you have developed for us, from our clients, employees and business associates. We would like to express our appreciation to your team for the effort that they have put in to deliver it. </p>
+              <p class='client'>Mr Koh, KHDM Pte Ltd</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption2">
+              <p>
+                “Mark’s readiness and patience has made the entire copy-writing process a breeze to handle. He works hard to help put my visions and ideas into well-structured words and paragraphs. He understands my requirements and gives nothing less than his best.”</p>
+              <p class='client'>Diane L, aequbit</p>
+            </div>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Form-->
+  <section class='form-section'>
+    <div class="container">
+      <h3 class='text-center h3-box'>Get A Quote</h3>
+      <form>
+        <div class="form-row">
+          <div class="col-md-6 mb-3"> <!--form column 1-->
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <input name='name' type="text" class="form-control form-control-lg" placeholder="Name" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <input name='contact' type="text" class="form-control form-control-lg" placeholder="Contact Number" required>
+              </div>
+              <div class="col-md-12 mb-3">
+                <input name='subject' type="text" class="form-control form-control-lg" placeholder="Subject" required>
+              </div>
+              <div class="col-md-12">
+                <input name='email' type="email" class="form-control form-control-lg" placeholder="Email" required>
+              </div>
+            </div>
+          </div> <!--end form column 1-->
+          <div class="col-md-6 mb-3"> <!--form column 2-->
+            <div class="form-row">
+              <div class="col-md-12 mb-3">
+                <select name='urgency' class="form-control form-control-lg">
+                  <option>Urgency (Optional)</option>
+                  <option>Very Urgent (2 Months)</option>
+                  <option>In Consideration</option>
+                </select>
+              </div>
+              <div class="col-md-12 mb-3">
+              <select name='budget' class="form-control form-control-lg">
+                <option>Budget (Optional)</option>
+                <option>S$3,000 - S$5,000</option>
+                <option>S$5,000 - S$10,000</option>
+                <option>S$10,000 - S$15,000</option>
+                <option>S$15,000 - S$20,000</option>
+                <option>S$20,000+</option>
+              </select>
+              </div>
+              <div class="col-md-12 mb-3">
+                <input type="radio" class='customerType' name="customerType" value="personal"> Personal
+                <input type="radio" class='customerType' name="customerType" value="corporate"> Corporate
+              </div> 
+              <div class="col-md-12">
+                <input name='company' type="text" class="form-control form-control-lg" placeholder="Company (Optional)">
+              </div>
+            </div>
+          </div>  
+          <input type="text" class="form-control form-control-lg mb-3 msg" placeholder="How Can We Help?" required>
+        </div>
+        <div class='text-center'>
+          <button class="form-button hvr-radial-in" type="submit" data-toggle="#" data-target="#exampleModal">Send Enquiry</button>
+        </div>
+      </form> 
+    </div> <!--End Container-->
+  </section>
+  <!--End Contact Form-->
+
+  <footer>
+    Copyright © 2020 PX Solutions Pte Ltd. All rights reserved.
+  </footer>
+  </div>
+  
+
+</body>
+
+</html>
